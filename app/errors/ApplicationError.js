@@ -1,6 +1,7 @@
+/* eslint-disable class-methods-use-this */
 class ApplicationError extends Error {
   get details() {
-    return this.details;
+    return {};
   }
 
   toJSON() {
